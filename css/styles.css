@@ -319,7 +319,7 @@ cursor: pointer;
 }
 .customer-thumb:is(:hover,:focus)
 {
-  border: 1px solid #404bbf
+  border-color:#404bbf
 }
 .customer-thumb:is(:hover,:focus) .customer-icon
 { 
