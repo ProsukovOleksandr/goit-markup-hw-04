@@ -317,13 +317,13 @@ cursor: pointer;
 .customer-icon{
   fill:rgba(142, 143, 153, 1) ;
 }
-.customer-thumb:hover,:focus
+.customer-thumb:is(:hover,:focus)
 {
-  border-color:rgba(64, 75, 191, 1);
+  border: 1px solid #404bbf
 }
 .customer-thumb:is(:hover,:focus) .customer-icon
 { 
-  fill: rgba(64, 75, 191, 1);
+  fill:#404bbf;
 }
 
 .text {
